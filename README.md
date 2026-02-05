@@ -277,38 +277,4 @@ Try it on:
 
 ---
 
-## 🚀 Getting Started
 
-1. **Clone and build** (see Build section above)
-2. **Try the example**: `.\build\Release\build_index.exe example.txt`
-3. **Load your file**: `.\build\Release\build_index.exe "your_file.txt"`
-4. **Read the docs**: Start with [QUICK_START.md](QUICK_START.md)
-
----
-
-## 📖 References
-
-- FM-Index: Ferragina & Manzini (2000)
-- Wavelet Trees: Grossi et al. (2003)
-- PGM-Index: Ferragina & Vinciguerra (2020)
-- vEB Layout: Bender et al. (2000)
-
----
-
-## 👥 Authors
-
-DSA Course Project - Semester 3  
-Implementation: C++20, CMake, MSVC 2022
-
----
-
-## 📄 License
-
-Educational project for academic use.
-
----
-
-**Last Updated**: October 28, 2025  
-**Version**: 1.0.0 (Production Ready)  
-**C++ Standard**: C++20  
-**Tested On**: Windows 11, Visual Studio 2022
