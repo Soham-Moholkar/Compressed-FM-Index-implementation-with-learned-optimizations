@@ -49,3 +49,5 @@ Thumbs.db
 # Index artifacts
 *.idx
 *.index
+*.csidx
+test_index.csidx
