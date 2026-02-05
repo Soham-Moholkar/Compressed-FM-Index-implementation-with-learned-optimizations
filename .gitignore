@@ -1,0 +1,51 @@
+# Build artifacts (Windows & Linux)
+/build*/
+/out/
+/.vs/
+/.vscode/
+/.idea/
+
+# MSVC artifacts
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# GCC/Clang artifacts
+*.o
+*.a
+*.so
+*.dylib
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
+
+# Index artifacts
+*.idx
+*.index

@@ -1,0 +1,8 @@
+The quick brown fox jumps over the lazy dog.
+Data structures and algorithms are fundamental to computer science.
+The FM-index is a compressed full-text index based on the Burrows-Wheeler transform.
+It enables efficient pattern matching in compressed space.
+Algorithms like suffix arrays and wavelet trees make this possible.
+The quick brown fox appears twice in this example text.
+Pattern matching is useful for DNA sequence analysis, text search engines, and data mining.
+$
