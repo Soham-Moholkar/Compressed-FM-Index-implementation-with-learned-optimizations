@@ -57,7 +57,7 @@ void WaveletTree::build(const std::vector<uint8_t>& bwt) {
 // ──────────────────────────────────────────────────────────────
 
 size_t WaveletTree::rank(uint8_t c, size_t i) const {
-  if (i == 0 || i > n_) return 0;
+  if (i == 0) return 0;
   if (i > n_) i = n_;
 
   size_t start = 0;  // Start of current range.
