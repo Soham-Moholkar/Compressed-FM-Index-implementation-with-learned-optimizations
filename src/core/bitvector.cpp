@@ -23,6 +23,8 @@ void BitVector::build(const std::vector<uint8_t>& bits) {
   // 1) Pack bits into 64-bit words (LSB = bit 0).
   const size_t nwords = (nbits_ + 63) / 64;
   bits_.assign(nwords, 0);
+  super_.clear();
+  blocks_.clear();
   for (size_t i = 0; i < nbits_; ++i) {
     if (bits[i]) {
       const size_t word_idx = i / 64;
@@ -98,6 +100,8 @@ void BitVector::build(const std::vector<uint8_t>& bits) {
 void BitVector::build_from_words(const std::vector<uint64_t>& words, size_t nbits) {
   nbits_ = nbits;
   bits_ = words;
+  super_.clear();
+  blocks_.clear();
 
   // Ensure bits_ has enough words.
   const size_t required_words = (nbits_ + 63) / 64;
